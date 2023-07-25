@@ -49,6 +49,36 @@ PUT /users/{userId} - Update a user by it's id.
 DELETE /users/{userId} - Delete a user.
 
 
+GET /roles - Retrieve a list of all roles. 
+
+POST /roles - Create a new role.
+
+PUT /roles/{roleId} - Update a role by it's id.
+
+DELETE /roles/{roleId} - Delete a role.
+
+
+```
+## Purpose of each MS
+### ms-authentication
+The goal of this microservice is to authenticate and authorize users and any request of the API.
+
+Unfortunately, I wasn't able to correctly implement it, so, as of right now it is not currently working properly.
+
+### ms-gateway
+The gateway redirects the requests to the responsible api.
+
+### ms-product
+The products MS controls all of the items in the database related to Product, Category, Users and Roles.
+
+### ms-notification
+This MS is suposed to send an email notification via RabbitMQ to the user when there is a modification to a registry.
+It is currently not working as intended, even though the endpoint is properly functioning.
+
+
+
+## Database
+The project utilizes [PostgresSQL](https://www.postgresql.org/) as the database.
 ```
 
 
