@@ -1,11 +1,11 @@
-# CompassUOL-SP-Challenge-03-Squad-1-Shenlong
+# Microservice challenge
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Alequeixam/CompassUOL-SP-Challenge-03-Squad-1-Shenlong.git
+/////////
 ```
 
 2. Install dependencies with Maven
