@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-/////////
+https://github.com/Alequeixam/desafio-ms.git
 ```
 
 2. Install dependencies with Maven
