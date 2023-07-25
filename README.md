@@ -79,8 +79,4 @@ It is currently not working as intended, even though the endpoint is properly fu
 
 ## Database
 The project utilizes [PostgresSQL](https://www.postgresql.org/) as the database.
-```
 
-
-## Database
-The project utilizes [PostgresSQL](https://www.postgresql.org/) as the database.
